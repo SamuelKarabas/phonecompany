@@ -66,16 +66,5 @@ public class TelephoneBillCalculatorImpl implements TelephoneBillCalculator {
         }
         return cost;
     }
-
-    private class Call {
-        String phoneNumber;
-        LocalDateTime start;
-        LocalDateTime end;
-
-        public Call(String phoneNumber, LocalDateTime start, LocalDateTime end) {
-            this.phoneNumber = phoneNumber;
-            this.start = start;
-            this.end = end;
-        }
-    }
+    
 }
